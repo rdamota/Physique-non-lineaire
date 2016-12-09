@@ -1,4 +1,5 @@
- # -*-coding:Latin-1 -*
+
+# -*-coding:Latin-1 -*
 
 import numpy as np
 from scipy.integrate import odeint
@@ -6,13 +7,6 @@ from matplotlib import pyplot as plt
 from matplotlib import patches
 from matplotlib.gridspec import GridSpec
 
-params = {'text.usetex' : True,
-          'font.size' : 18,
-          'font.family' : 'lmodern',
-          'text.latex.unicode' : True}
-plt.rcParams['text.latex.preamble']=[r'\usepackage{lmodern}']
-plt.rcParams['axes.linewidth'] = 1
-plt.rcParams.update(params)
 color = [ 'blue', 'orange', 'green', 'y' ]
 
 def phase_line_plot(x, f):
