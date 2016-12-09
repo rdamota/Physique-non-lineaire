@@ -2,4 +2,4 @@ FROM andrewosh/binder-base
 
 USER root
 
-RUN apt-get install texlive
+RUN apt-get install texlive-full
